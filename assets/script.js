@@ -1,4 +1,4 @@
-var APIkey = "8a9580902f9182133d61e3dd392d63c";
+var APIkey = "81a9580902f9182133d61e3dd392d63c";
 var city = "";
 var lat = "";
 var lon = "";
@@ -14,7 +14,6 @@ var searchHistory = document.getElementById('searchHistory')
 
 document.getElementById("searchBtn").addEventListener('click',function(){
 var city = document.getElementById("City").value;
-console.log(APIkey);
 
 fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid='+APIkey)
 .then(response => {
