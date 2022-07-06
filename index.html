@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!--Css-->
+    <link rel="stylesheet" href="./assets/styles.css" />
+
+    <title>Weather Dashboard</title>
+  </head>
+
+<body>
+    <!--Weather Dashboard header-->
+    <div class="container-fluid text-center">Weather Dashboard</div>
+    
+    <div class="container">
+
+        <div class="row">
+        <div class="col-4"> 
+        <label for="inputCity" class="form-label">Search for a city:</label>
+        <input type="text" class="form-control input" id="City" aria-describedby="citySearch" placeholder="Enter City">
+        <button type="search" class="btn btn-primary" id="searchBtn">Search</button>
+        </div>
+
+
+        <div class="col" id="currentForecast">
+          <h1>Current weather forecast:</h1>
+          <img src="" id="currentImg"><img>
+          <p id="date"> </p>
+          <p id="temp"> </p>
+          <p id="windSpeed"> </p>
+          <p id="humid"> </p>
+          <p id="UV"> </p>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <ul id="searchHistory" class="list-group">
+                    <!-- append li here li class="list-group-item"-->
+                </ul>
+            </div>
+
+            <div class="col" id="sevenday">
+              <h2>7-Day Forecast:</h2>
+              <div id="data"> </div>
+            </div>
+        
+        </div>
+
+    </div>
+
+</body>
+    
+    
+    
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!--Momment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    <!--Javascript-->
+    <script src="./assets/script.js"> </script>
+
+  </body>
+</html>
