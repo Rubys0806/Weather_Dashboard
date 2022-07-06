@@ -17,7 +17,7 @@
 * They are able to revist a city they have peviously searched through a search history button. 
 
 ## Screenshot
-![Screenshot of final web application](./assets/images/demo.gif)
+![Screenshot of final web application](./assets/images/Weather%20Dashboard.gif)
 
 ## URL
-[URL to deployed application: ]( )
+[URL to deployed application: https://rubys0806.github.io/Weather_Dashboard/](https://rubys0806.github.io/Weather_Dashboard/)
