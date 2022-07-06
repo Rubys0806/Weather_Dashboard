@@ -1,4 +1,4 @@
-var APIkey = config.MY_KEY;
+var APIkey = "8a9580902f9182133d61e3dd392d63c";
 var city = "";
 var lat = "";
 var lon = "";
